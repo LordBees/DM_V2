@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DungeonMaster", "DungeonMaster\DungeonMaster.pyproj", "{E0AC7E0E-1931-4739-AA9C-3E85C703BDBF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Buildexe", "Buildexe\Buildexe.pyproj", "{EF35D379-F2DD-492D-A81A-359818EADB88}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Buildmega", "Buildmega\Buildmega.pyproj", "{157AB754-1309-40B4-A2E7-74F45EDE48F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0AC7E0E-1931-4739-AA9C-3E85C703BDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AC7E0E-1931-4739-AA9C-3E85C703BDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF35D379-F2DD-492D-A81A-359818EADB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF35D379-F2DD-492D-A81A-359818EADB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157AB754-1309-40B4-A2E7-74F45EDE48F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157AB754-1309-40B4-A2E7-74F45EDE48F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

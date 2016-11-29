@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>e0ac7e0e-1931-4739-aa9c-3e85c703bdbf</TargetProject>
+    <FriendlyName>DungeonMaster</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\Spartan 2\AppData\Local\Temp\DungeonMaster_20161123.vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>

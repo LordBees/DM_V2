@@ -1,0 +1,7 @@
+[SBASE],CON=+2,,
+[S1],WIS=+1,,
+[S2],STR=+2,,
+[TBASE],DarkVision,Dwarven Resillience,Dwarven Combat Training,,Tool Proficiency,StoneCunning,,
+[T1],Dwarven Toughness,,
+[T2],Dwarven armour training,,
+[TLANG],Common Dwarvish,,
