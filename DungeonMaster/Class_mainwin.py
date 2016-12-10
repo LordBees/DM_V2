@@ -6,6 +6,7 @@ import Class_createcharwin, Class_optwin, Class_dicerollerwin
 
 #import standard libs 
 import BeeLibv3 as Blib
+import MEGA
 import Common
 
 
@@ -566,35 +567,35 @@ class main_win:
               'pinfo_addditfeatures']
         ##de csv etc...
         if xdat[0] == Fn[0]:
-            return self.Blib.csv2array(xdat[1][0])
+            return Blib.csv2array(xdat[1][0])
         elif xdat[0] == Fn[1]:
-            return self.Blib.csv2array(xdat[1][0])
+            return Blib.csv2array(xdat[1][0])
         elif xdat[0] == Fn[2]:
-            return self.Blib.csv2array(xdat[1][0])#removed[]
+            return Blib.csv2array(xdat[1][0])#removed[]
         
         elif xdat[0] == Fn[3]:
-            return self.Blib.csv2array(xdat[1][0])
+            return Blib.csv2array(xdat[1][0])
         elif xdat[0] == Fn[4]:
-            return self.Blib.csv2array(xdat[1][0])
+            return Blib.csv2array(xdat[1][0])
         elif xdat[0] == Fn[5]:
-            return self.Blib.csv2array(xdat[1][0])
+            return Blib.csv2array(xdat[1][0])
         
         elif xdat[0] == Fn[6]:
-            xdat[1] = self.Blib.csv2array(xdat[1][0])
+            xdat[1] = Blib.csv2array(xdat[1][0])
             for x in range(len(xdat[1])):
                 xdat[1][x] = [int(xdat[1][x][:1]),xdat[1][x][1:]]##splits into tuples (intcbox,strdat)
             return xdat[1]
         
         elif xdat[0] == Fn[7]:
-            xdat[1][1] = self.Blib.csv2array(xdat[1][1])
+            xdat[1][1] = Blib.csv2array(xdat[1][1])
             for x in range(len(xdat[1][1])):##reconstruct type
                 xdat[1][1][x] = int(xdat[1][1][x])
-            return [self.Blib.csv2array(xdat[1][0]),xdat[1][1]]
+            return [Blib.csv2array(xdat[1][0]),xdat[1][1]]
         
         elif xdat[0] == Fn[8]:
-            return self.Blib.csv2array(xdat[1][0])
+            return Blib.csv2array(xdat[1][0])
         elif xdat[0] == Fn[9]:
-            xdat[1][0] = self.Blib.csv2array(xdat[1][0])
+            xdat[1][0] = Blib.csv2array(xdat[1][0])
             #print(xdat[1][0])
             for x in range(2,len(xdat[1][0])):
                 xdat[1][0][x] = int(xdat[1][0][x])##reconstructing ints
@@ -602,7 +603,7 @@ class main_win:
         
         elif xdat[0] == Fn[10]:
             for x in range(len(xdat[1])):
-                xdat[1][x]= self.Blib.csv2array(xdat[1][x])
+                xdat[1][x]= Blib.csv2array(xdat[1][x])
             return xdat[1]
         
         elif xdat[0] == Fn[11]:
@@ -723,7 +724,7 @@ class main_win:
         if tk.messagebox.askokcancel(title = 'confirm save',message = 'save the file: '+str(Fpath[0])+'\nare you sure?'):##could use flag
             if Fpath[1] == True:
                 if tk.messagebox.askokcancel(title = 'confirm',message = 'this will OVERWRITE the selected file with data\nare you sure?'):
-                    #self.writefile(Fpath,self.Blib.array2csv(self.internal_savefile(dat)),ARRAY = False)##temp
+                    #self.writefile(Fpath,Blib.array2csv(self.internal_savefile(dat)),ARRAY = False)##temp
                     #self.writefile(str(Fpath[1]),self.internal_savefile2(dat))
                     dat = Common.internal_prepsave(dat)
                     self.base_ADV = MEGA.mega2(Fpath[0])
