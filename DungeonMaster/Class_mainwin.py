@@ -1192,7 +1192,7 @@ class main_win:
         #text hack
         self.attackplusspells_MSC_TXT.delete(1.0, 'end-1c')
         for x in data:#.insert for loop or pass whole string with newlines
-            self.attackplusspells_MSC_TXT.insert(INSERT,x)#.set(data[0])##char1 2 end
+            self.attackplusspells_MSC_TXT.insert(tk.INSERT,x)#.set(data[0])##char1 2 end
             
     def set_attackplusspells(self,data):
         self.set_attackplusspells_VAR(data[0])
@@ -1203,13 +1203,13 @@ class main_win:
         #traits/lang box
         self.languagesplusskills_TBX_TXT.delete(1.0, 'end-1c')
         for x in data:
-            self.languagesplusskills_TBX_TXT.insert(INSERT,x)
+            self.languagesplusskills_TBX_TXT.insert(tk.INSERT,x)
             
     def set_equipmain(self,data):
         #equip/inventory
         self.equipmain_TBX_TXT.delete(1.0, 'end-1c')
         for x in data:
-            self.equipmain_TBX_TXT.insert(INSERT,x)
+            self.equipmain_TBX_TXT.insert(tk.INSERT,x)
             
     def set_personalinfo_basic(self,data):
         #traits
@@ -1221,15 +1221,15 @@ class main_win:
         self.personalinfo_features_TBX_TXT.delete(1.0, 'end-1c')
             
         for x in data[0]:   
-            self.personalinfo_traits_TBX_TXT.insert(INSERT,x)
+            self.personalinfo_traits_TBX_TXT.insert(tk.INSERT,x)
         for x in data[1]:
-            self.personalinfo_ideals_TBX_TXT.insert(INSERT,x)
+            self.personalinfo_ideals_TBX_TXT.insert(tk.INSERT,x)
         for x in data[2]:
-            self.personalinfo_bonds_TBX_TXT.insert(INSERT,x)
+            self.personalinfo_bonds_TBX_TXT.insert(tk.INSERT,x)
         for x in data[3]:
-            self.personalinfo_flaws_TBX_TXT.insert(INSERT,x)
+            self.personalinfo_flaws_TBX_TXT.insert(tk.INSERT,x)
         for x in data[4]:
-            self.personalinfo_features_TBX_TXT.insert(INSERT,x)
+            self.personalinfo_features_TBX_TXT.insert(tk.INSERT,x)
     
     def set_ALL(self,data):
         self.set_charbase_name(data[0])
