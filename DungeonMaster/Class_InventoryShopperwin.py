@@ -1,3 +1,6 @@
+##imports
+##custom lib/modules
+##classes imports
 class InventoryShopperwin:##inventory shop manager(buy/sell items for gold here)
     
     def __init__(self,masterwin,mega_main_datafile):

@@ -1,7 +1,7 @@
 ##imports
 import os,sys,random##packages
 ##tk
-from tkinter import *
+from tkinter import *##will redo to as tk
 #import Class_mainwin, Class_createcharwin, Class_optwin #, Class_dicerollerwin
 
 #import standard libs 

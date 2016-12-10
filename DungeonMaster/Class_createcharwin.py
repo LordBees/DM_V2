@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import *##will redo to tk
 from tkinter import messagebox,filedialog##specific imports testing
 #import Class_mainwin, Class_dicerollerwin, Class_optwin #Class_createcharwin, 
 
